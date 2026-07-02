@@ -18,7 +18,7 @@ interface Product {
   is_available: boolean;
 }
 
-export default function ProductList() {
+export default function Homepage() {
   const [products, setProducts] = useState<Product[]>([]);
   const [message, setMessage] = useState("");
 
